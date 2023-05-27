@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e81212;
+  font-weight: bold;
+  transition: color 3s; /* Add this line for smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #666;
+}
